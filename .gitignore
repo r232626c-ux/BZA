@@ -1,0 +1,41 @@
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+ENV/
+/.venv
+
+# Env files
+.env
+.env.*
+frontend/.env.local
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.git_backup_*/
+
+# Large embedded runtime bundles (keep local, do not track)
+electron/postgres/
+electron/python/
+electron/python-*-embed-*.zip
+electron/python-*.zip
+electron/psql/
+
+# Generated/local data artifacts
+backend/build/
+backend/backups/
+backend/data/
